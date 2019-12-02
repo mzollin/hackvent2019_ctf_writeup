@@ -3,8 +3,7 @@ This one seemed like a really weird code until I saw that the categories were "f
 
 ![](confused.jpg)  
 
-Ok, so I guess we're doing this.  
-You can easily install it with npm:
+Ok, so I guess we're doing this. You can easily install it with npm:  
 
     npm install -g hodor-lang
     
