@@ -11,3 +11,5 @@ I then took a screenshot looking straight down on the structure, opened it in Gi
 Barcode enthusiasts will quickly recognize this as an Aztec code. I used the [ZXing online decoder](https://zxing.org/w/decode.jspx) to read the flag:  
 
 ![](result.png)  
+
+[Next day](../03)
