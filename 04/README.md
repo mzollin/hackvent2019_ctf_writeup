@@ -1,5 +1,5 @@
 # Day 04: HV19.04 password policy circumvention
-To be honest I found this one a bit too straightforward, although it's a cute idea.  
+To be honest I think this one was a bit too straightforward, although it's a cute idea.  
 
 > Santa released a new password policy (more than 40 characters, upper, lower, digit, special).  
 > The elves can't remember such long passwords, so they found a way to continue to use their old (bad) password:  
