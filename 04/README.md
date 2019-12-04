@@ -9,6 +9,4 @@ We got a zip archive containing a .ahk file. This is the filename extension for 
 
 ![](autohotkey.gif) 
 
-The flag is: HV19{R3memb3r, rem3mber - the 24th 0f December}  
-
 [Next day](../05)
