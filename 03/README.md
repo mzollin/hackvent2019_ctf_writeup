@@ -21,4 +21,6 @@ So we got the flag encoded as base64, which we can decode like this:
 
     echo SFYxOXtoMDFkLXRoMy1kMDByLTQyMDQtbGQ0WX0= | base64 --decode
     
-And we get the solution: HV19{h01d-th3-d00r-4204-ld4Y}
+And we get the solution: HV19{h01d-th3-d00r-4204-ld4Y}  
+
+[Next day](../04)
