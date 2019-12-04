@@ -4,7 +4,7 @@ I used the "split" function to cut off the top and bottom parts of the ornament 
 
 ![](windows_3D_builder.png)  
 
-I then took a screenshot looking straight down on the structure, opened it in Gimp and applied thresholding to convert it into a relatively clean 2D barcode:  
+I then took a screenshot looking straight down on the structure, opened it in Gimp and applied thresholding to convert it into a relatively clean looking 2D barcode:  
 
 ![](aztec.png)  
 
