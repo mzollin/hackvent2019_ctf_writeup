@@ -33,5 +33,5 @@ It may seem like gibberish, but remember, we're still playing a CTF. If you look
 
     X8YIOF0ZP4S8HV19{D1ficult_to_g3t_a_SPT_R3ader}S1090OMZE0E3NFP6E
 
-And indeed, we got the flag. The final script (spt_reader.py) is available in this repo.
+And indeed, we got the flag. The final script (spt_reader.py) is available in this repo.  
 [Next day](../06)
