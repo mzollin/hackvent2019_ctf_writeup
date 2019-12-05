@@ -31,7 +31,7 @@ Which results in the following output:
 
     sPX tY8 lPY mEI r1O y3F sP0 eQZ g8P z94 uLS hT8 eGH z0V aX1 g09 lO{ tOD lJ1 gJf xIf zIi gUc jSu iHl iQt v6_ v0t sMo sI_ aQg iI3 e4t wS_ b9a tE_ uGS h4P a8T lN_ qVR cV3 lPa f6d q5e rGr cO} wXS fL1 q00 vV9 eW0 nJO gWM x2Z e3E k20 o3E aS3 lRN tUF y8P vB6 eBE
 
-It may seem like gibberish, but remember, we're still playing a CTF. If you look closely at the blue channel (the third character of the bar values) you can see underscores and curly braces, which indicate a flag buried in there. So we modify the script to read only the blue channel and string it together, which gives us this:  
+It may seem like gibberish, but remember, we're still playing a CTF. If you look closely at the blue channel (the third character of the bar values) you can see some underscores and curly braces, which indicate a flag buried in there. So we modify the script to read only the blue channel and string it together, which gives us this:  
 
     X8YIOF0ZP4S8HV19{D1fficult_to_g3t_a_SPT_R3ader}S1090OMZE0E3NFP6E
 
