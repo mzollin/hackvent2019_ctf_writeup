@@ -16,12 +16,14 @@ from PIL import Image
 
 image = Image.open('code.png')
 scanline = image.size[1] / 2
-previous = 'ffffff'
+separated = True
 for i in range(image.size[0]):
     pixel = image.getpixel((i, scanline))
     hex = '{:02x}{:02x}{:02x}'.format(*pixel)
-    if hex != 'ffffff' and hex != previous:
-        previous = hex
+    if hex == 'ffffff':
+        separated = True
+    elif separated:
+        separated = False
         print(bytearray.fromhex(hex).decode(), end=' ')
 print('')
 ```  
@@ -31,7 +33,7 @@ Which results in the following output:
 
 It may seem like gibberish, but remember, we're still playing a CTF. If you look closely at the blue channel (the third character of the bar values) you can see underscores and curly braces, which indicate a flag buried in there. So we modify the script to read only the blue channel and string it together, which gives us this:  
 
-    X8YIOF0ZP4S8HV19{D1ficult_to_g3t_a_SPT_R3ader}S1090OMZE0E3NFP6E
+    X8YIOF0ZP4S8HV19{D1fficult_to_g3t_a_SPT_R3ader}S1090OMZE0E3NFP6E
 
 And indeed, we got the flag. The final script (spt_reader.py) is available in this repo.  
 
